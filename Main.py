@@ -29,8 +29,8 @@
 # p = 0
 
 # for i in range (1):
-#     randNumber1 = random.randint(1, 5)
-#     randNumber2 = random.randint(1, 5)
+#     randNumber1 = random.randint(1, 1000)
+#     randNumber2 = random.randint(1, 1000)
 #     s = randNumber1 + randNumber2
 #     p = randNumber1 * randNumber2
 #     print(s, p, end=" ")
