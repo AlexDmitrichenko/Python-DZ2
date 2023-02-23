@@ -41,19 +41,19 @@
 # Задача 14: Требуется вывести все целые степени двойки (т.е. числа вида 2k), не превосходящие 
 # числа N.  Пример   10 -> 1 2 4 8
 
-number = int(input('Введите число N: '))
-factor = 2
-degree = 0
-count = 1
+# number = int(input('Введите число N: '))
+# factor = 2
+# degree = 0
+# count = 1
 
-while (degree * factor) <= number:
-    if count == 1:
-       degree = count
-       count += 1
-    elif count ==2:
-        degree = 1 * factor
-        count += 1
-    else:
-        degree = degree * factor
-    print (degree, end = " ")
+# while (degree * factor) <= number:
+#     if count == 1:
+#        degree = count
+#        count += 1
+#     elif count ==2:
+#         degree = 1 * factor
+#         count += 1
+#     else:
+#         degree = degree * factor
+#     print (degree, end = " ")
 
