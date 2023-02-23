@@ -42,18 +42,18 @@
 # числа N.  Пример   10 -> 1 2 4 8
 
 number = int(input('Введите число N: '))
-k = 2
+factor = 2
 degree = 0
 count = 1
 
-while degree < number:
+while (degree * factor) <= number:
     if count == 1:
        degree = count
        count += 1
     elif count ==2:
-        degree = 1 * k
+        degree = 1 * factor
         count += 1
     else:
-        degree = degree * k
+        degree = degree * factor
     print (degree, end = " ")
 
