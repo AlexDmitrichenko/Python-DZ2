@@ -36,3 +36,23 @@
 #     print(s, p, end=" ")
 
 # print (f'  Задуманное число Х: {randNumber1}, задуманное число Y: {randNumber2}')
+
+#*************************************************************************************
+# Задача 14: Требуется вывести все целые степени двойки (т.е. числа вида 2k), не превосходящие 
+# числа N.  Пример   10 -> 1 2 4 8
+
+number = int(input('Введите число N: '))
+k = 2
+degree = 0
+count = 1
+
+while degree < number:
+    if count == 1:
+       count += 1
+    elif count ==2:
+        degree = count * k
+        count += 1
+    else:
+        degree = degree * k
+    print (degree, end = " ")
+
