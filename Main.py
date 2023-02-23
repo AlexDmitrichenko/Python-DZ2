@@ -3,17 +3,36 @@
 # чтобы все монетки были повернуты вверх одной и той же стороной. Выведите минимальное 
 # количество монет, которые нужно перевернуть   Пример  5  -> 1 0 1 1 0  ->  2
 
-import random
-tails = 0
-heads = 1
-count = 0
-quantity = int(input('Введите количество монеток: '))
+# import random
+# tails = 0
+# heads = 1
+# count = 0
+# quantity = int(input('Введите количество монеток: '))
 
-for i in range (quantity):
-    randNumber = random.randint(0, 1)
-    print(randNumber, end=" ")
-    if randNumber > 0:
-        count += 1
+# for i in range (quantity):
+#     randNumber = random.randint(0, 1)
+#     print(randNumber, end=" ")
+#     if randNumber > 0:
+#         count += 1
 
-print (' Минимальное количество монет, которые нужно перевернуть:', 
-count if count < (quantity-count) else (quantity-count))
+# print (' Минимальное количество монет, которые нужно перевернуть:', 
+# count if count < (quantity-count) else (quantity-count))
+
+#*************************************************************************************
+# Задача 12: Петя и Катя – брат и сестра. Петя – студент, а Катя – школьница. Петя помогает 
+# Кате по математике. Он задумывает два натуральных числа X и Y (X,Y≤1000), а Катя должна их 
+# отгадать. Для этого Петя делает две подсказки. Он называет сумму этих чисел S и их произведение P. 
+# Помогите Кате отгадать задуманные Петей числа. Пример   4 4 -> 2 2     5 6 -> 2 3
+
+# import random
+# s = 0
+# p = 0
+
+# for i in range (1):
+#     randNumber1 = random.randint(1, 5)
+#     randNumber2 = random.randint(1, 5)
+#     s = randNumber1 + randNumber2
+#     p = randNumber1 * randNumber2
+#     print(s, p, end=" ")
+
+# print (f'  Задуманное число Х: {randNumber1}, задуманное число Y: {randNumber2}')
