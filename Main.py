@@ -48,9 +48,10 @@ count = 1
 
 while degree < number:
     if count == 1:
+       degree = count
        count += 1
     elif count ==2:
-        degree = count * k
+        degree = 1 * k
         count += 1
     else:
         degree = degree * k
